@@ -1,5 +1,8 @@
 1. What is a React component?
-
+<dl>
+<dd>A function that returns React elements.</dd>
+</dl>
+<hr />  
 
 2. What's wrong with this code?
 ```
@@ -9,6 +12,11 @@ function myComponent() {
     )
 }
 ```
+<dl>
+<dd>大写MyComponent。</dd>
+<dd>When defining components in React, we need to use pascal case, that is where the first letter is capitalized. The rest of it follows the regular rules of camel casing.</dd>
+</dl>
+<hr />
 
 3. What's wrong with this code?
 ```
@@ -22,3 +30,7 @@ function Header() {
 
 root.render(Header())
 ```
+<dl>
+<dd>推荐使用&lt;Header />这样的写法来调用React component. Surrounding it in the angle brackets</dd>
+<dd></dd>
+</dl>
